@@ -1,71 +1,95 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I’m a passionate web designer and front-end developer with a keen eye for detail and a love for creating seamless, engaging user experiences. With proficiency in a wide range of design and development tools, I specialize in turning ideas into intuitive, visually appealing websites. I approach challenges with creativity and problem-solving skills, always striving for innovative solutions.
+`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `<p>I’m a web designer and front-end developer with a deep passion for creating innovative and visually appealing digital solutions. With a Master’s in Electrical and Computer Engineering from ISEP and hands-on experience across research, development, and design, I specialize in transforming ideas into functional, high-performance web platforms.</p><br/>
+
+<p>My career has spanned diverse roles, from improving annotation tools in academic research to developing cutting-edge gamified platforms and seamless user interfaces for casino and sports betting websites. Proficient in a wide range of tools and technologies, including ReactJS, AngularJS, NextJS, TailwindCSS, and Figma, I excel at optimizing performance, enhancing user experience, and delivering scalable, responsive designs.</p><br/>
+
+<p>As a problem solver and creative thinker, I enjoy tackling challenges head-on, blending aesthetics with technical precision to deliver solutions that stand out. I’m also a natural communicator and collaborator, bringing strong leadership and project management skills to every team I work with.</p><br/>
+
+<p>Driven by a curiosity for innovation and a love for design, I’m committed to building digital experiences that are not only functional but also delightful to use. Whether working independently or within a team, I strive to make a lasting impact through my work.</p>`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2023 - 2024",
+    role: "Frontend Developer",
+    company: "Hi-tech Solutions.",
+    description: `My role was to construct a seamless, user-friendly interface for a bustling casino and sports betting platform using React.js, Next.js and Typescript. Implemented RESTful APIs and actively enhanced user experience by employing latest libraries and frameworks. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: [
+      "ReactJs",
+      "Nextjs",
+      "Typescript",
+      "Tailwind Css",
+      "Atlassian",
+      "Git",
+      "Redux",
+    ],
   },
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "Capgemini",
+    description: `Designed and developed user interfaces for web applications using Angular.js. Worked as a part of the Front End Team (Angular JS) to construct a gamified platform with the best user-friendly interface. The main objective was to create a platform that is stable and optimized to achieve the best overall performance similar to Habitica. Implemented responsive designs and optimized frontend performance.`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "Angular.js",
+      "Java",
+      "Postman",
+      "Swagger",
+      "Atlassian",
+      "Git",
+    ],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    role: " Associate developer",
+    company: "Innowave",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["HTML", "CSS", "REACT", "C#", "StoryBook", "Git"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: " Junior Research Scholar",
+    company: "EU Project (AI-Annotation Tool)",
+    description: `Contributed to the development of web application to test the accuracy of the annotation tool using JavaScript, HTML, and PHP. Developed a gamified application using gamification techniques to encourage users to engage more with the tool. Worked closely with teams in Portugal and France to prioritize features and enhancements.`,
+    technologies: ["HTML", "CSS", "PHP", "Javascript"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "iGaming Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional and Graphical iGaming website with features like responsiveness, BookaDemo and contact Form ",
+    technologies: ["HTML", "Tailwind Css", "React", "Next.js", "Email.js"],
   },
   {
-    title: "Task Management App",
+    title: "Casino and SportsBetting Platform",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An online platform for casino and sportsbetting, with features such as withdrawals, deposits, bets, and  iGames.",
+    technologies: ["HTML", "React", "Next.js", "TailwindCss", "Redux"],
   },
   {
-    title: "Portfolio Website",
+    title: "BreadShop Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A beautifully designed website for a bread shop, highlighting handcrafted daily breads, showcasing the variety of artisanal loaves, and providing an inviting platform for customers to explore products, learn about the baking process, and get in touch.",
+    technologies: ["HTML", "TailwindCSS", "React", "Next.js", "Email.js"],
   },
   {
-    title: "Blogging Platform",
+    title: "E-commerce Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Built a fast, responsive eCommerce site using Next.js for SEO and performance, Tailwind CSS for custom, mobile-first designs, and Wix Headless CMS for seamless content management. Integrated dynamic product listings and a user-friendly experience, making it easy to scale and manage products.",
+    technologies: ["HTML", "CSS", "React", "Next.js", "TailwindCss", "Wix", "CMS"],
   },
 ];
 

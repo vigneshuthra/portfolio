@@ -28,7 +28,10 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-center">
-            <p className="my-2 max-w-xl py-2">{ABOUT_TEXT}</p>
+            <div
+              className="my-2 max-w-xl py-2 text-justify"
+              dangerouslySetInnerHTML={{ __html: ABOUT_TEXT }}
+            ></div>
           </div>
         </motion.div>
       </div>
