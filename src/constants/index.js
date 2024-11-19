@@ -13,7 +13,7 @@ import projectgallery4_1 from "../assets/projects/project4_1.png";
 
 
 
-export const HERO_CONTENT = `I’m a passionate web designer and front-end developer with a keen eye for detail and a love for creating seamless, engaging user experiences. With proficiency in a wide range of design and development tools, I specialize in turning ideas into intuitive, visually appealing websites. I approach challenges with creativity and problem-solving skills, always striving for innovative solutions.<br/> I’m eager to collaborate on exciting projects and open to full-time opportunities where I can contribute my expertise, grow alongside talented teams, and bring visions to life. Let’s create something extraordinary together!
+export const HERO_CONTENT = `I’m a passionate web designer and front-end developer with a keen eye for detail and a love for creating seamless, engaging user experiences. With proficiency in a wide range of design and development tools, I specialize in turning ideas into intuitive, visually appealing websites. I approach challenges with creativity and problem-solving skills, always striving for innovative solutions. I’m eager to collaborate on exciting projects and open to full-time opportunities where I can contribute my expertise, grow alongside talented teams, and bring visions to life. Let’s create something extraordinary together!
 `;
 
 export const ABOUT_TEXT = `<p>I’m a web designer and front-end developer with a deep passion for creating innovative and visually appealing digital solutions. With a Master’s in Electrical and Computer Engineering from ISEP and hands-on experience across research, development, and design, I specialize in transforming ideas into functional, high-performance web platforms.</p><br/>
