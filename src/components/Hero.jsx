@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile_pic.JPG";
+import profilePic from "../assets/profile_pic.jpg";
 import backgroundImage from "../assets/bg.png"; // Add your background image
 import { motion } from "framer-motion";
 
