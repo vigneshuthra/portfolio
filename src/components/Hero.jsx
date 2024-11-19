@@ -95,7 +95,7 @@ const Hero = () => {
             <img
               src={profilePic}
               alt="profilepic"
-              className="w-40 sm:w-60 md:w-70 lg:w-80 xl:w-96 2xl:w-[24rem] rounded-md"
+              className="w-[11.5rem] sm:w-60 md:w-70 lg:w-80 xl:w-96 2xl:w-[24rem] rounded-md"
             />
           </div>
         </motion.div>
