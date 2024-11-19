@@ -15,8 +15,20 @@ const Contact = () => {
       initial={{opacity:0, x:-100}}
       transition={{duration:1.5}}
        className="text-center tracking-tighter">
-        <p className="my-4">{CONTACT.phoneNo}</p>
-        <a href="#" className="border-b">
+        <p className="my-4">
+          <a
+            href={`tel:${CONTACT.phoneNo}`}
+            className="text-cyan-500 hover:text-cyan-600 transition-colors duration-300"
+          >
+            {CONTACT.phoneNo}
+          </a>
+        </p>
+
+        {/* Email link */}
+        <a
+          href={`mailto:${CONTACT.email}`}
+          className="text-cyan-500 hover:text-cyan-600 transition-colors duration-300 border-b"
+        >
           {CONTACT.email}
         </a>
         <p></p>

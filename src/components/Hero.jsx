@@ -37,7 +37,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative border-b mt-10 border-neutral-900 pb-4 lg:mb-35 h-screen"
+      className="relative md:border-b mt-[108px] border-neutral-900 pb-4 lg:mb-35 h-screen"
       onMouseMove={handleMouseMove}
     >
       {/* Background Image */}
@@ -77,8 +77,8 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="my-2 text-xs sm:text-sm md:text-md lg:text-lg max-w-xl py-6 font-light tracking-tighter text-justify"
+              dangerouslySetInnerHTML={{ __html: HERO_CONTENT }}
             >
-              {HERO_CONTENT}
             </motion.p>
           </div>
         </div>
@@ -95,7 +95,7 @@ const Hero = () => {
             <img
               src={profilePic}
               alt="profilepic"
-              className="w-[11.5rem] sm:w-60 md:w-70 lg:w-80 xl:w-96 2xl:w-[24rem] rounded-md"
+              className="w-[10rem] sm:w-60 md:w-70 lg:w-80 xl:w-96 2xl:w-[24rem] rounded-md"
             />
           </div>
         </motion.div>

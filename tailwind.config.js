@@ -7,5 +7,15 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [
+    function ({ addBase }) {
+      addBase({
+        'body': {
+          'overflow-x': 'hidden',
+        },
+        'html': {
+          'overflow-x': 'hidden',
+        },
+      })
+    }
+  ],}

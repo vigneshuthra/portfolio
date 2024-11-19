@@ -2,8 +2,18 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import projectgallery2_1 from "../assets/projects/project2-1.png";
+import projectgallery2_2 from "../assets/projects/project2-2.png";
+import projectgallery1_1 from "../assets/projects/project1_1.png";
+import projectgallery1_2 from "../assets/projects/project1_2.mp4";
+import projectgallery3_1 from "../assets/projects/project3_1.png";
+import projectgallery3_2 from "../assets/projects/project3_2.png";
+import projectgallery3_3 from "../assets/projects/project3_3.mp4";
+import projectgallery4_1 from "../assets/projects/project4_1.png";
 
-export const HERO_CONTENT = `I’m a passionate web designer and front-end developer with a keen eye for detail and a love for creating seamless, engaging user experiences. With proficiency in a wide range of design and development tools, I specialize in turning ideas into intuitive, visually appealing websites. I approach challenges with creativity and problem-solving skills, always striving for innovative solutions.
+
+
+export const HERO_CONTENT = `I’m a passionate web designer and front-end developer with a keen eye for detail and a love for creating seamless, engaging user experiences. With proficiency in a wide range of design and development tools, I specialize in turning ideas into intuitive, visually appealing websites. I approach challenges with creativity and problem-solving skills, always striving for innovative solutions.<br/> I’m eager to collaborate on exciting projects and open to full-time opportunities where I can contribute my expertise, grow alongside talented teams, and bring visions to life. Let’s create something extraordinary together!
 `;
 
 export const ABOUT_TEXT = `<p>I’m a web designer and front-end developer with a deep passion for creating innovative and visually appealing digital solutions. With a Master’s in Electrical and Computer Engineering from ISEP and hands-on experience across research, development, and design, I specialize in transforming ideas into functional, high-performance web platforms.</p><br/>
@@ -69,6 +79,7 @@ export const PROJECTS = [
     description:
       "A fully functional and Graphical iGaming website with features like responsiveness, BookaDemo and contact Form ",
     technologies: ["HTML", "Tailwind Css", "React", "Next.js", "Email.js"],
+    gallery: [projectgallery1_1, projectgallery1_2],
   },
   {
     title: "Casino and SportsBetting Platform",
@@ -76,6 +87,7 @@ export const PROJECTS = [
     description:
       "An online platform for casino and sportsbetting, with features such as withdrawals, deposits, bets, and  iGames.",
     technologies: ["HTML", "React", "Next.js", "TailwindCss", "Redux"],
+    gallery: [projectgallery2_1, projectgallery2_2],
   },
   {
     title: "BreadShop Website",
@@ -83,13 +95,23 @@ export const PROJECTS = [
     description:
       "A beautifully designed website for a bread shop, highlighting handcrafted daily breads, showcasing the variety of artisanal loaves, and providing an inviting platform for customers to explore products, learn about the baking process, and get in touch.",
     technologies: ["HTML", "TailwindCSS", "React", "Next.js", "Email.js"],
+    gallery: [projectgallery3_1, projectgallery3_2,projectgallery3_3],
   },
   {
     title: "E-commerce Website",
     image: project4,
     description:
       "Built a fast, responsive eCommerce site using Next.js for SEO and performance, Tailwind CSS for custom, mobile-first designs, and Wix Headless CMS for seamless content management. Integrated dynamic product listings and a user-friendly experience, making it easy to scale and manage products.",
-    technologies: ["HTML", "CSS", "React", "Next.js", "TailwindCss", "Wix", "CMS"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Next.js",
+      "TailwindCss",
+      "Wix",
+      "CMS",
+    ],
+    gallery: [projectgallery4_1],
   },
 ];
 
