@@ -38,7 +38,7 @@ const Experiences = () => {
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400 text-justify">
+              <p className="mb-4 text-neutral-400 text-justify text-xs sm:text-sm md:text-md lg:text-lg">
                 {experience.description}
               </p>
               <div className="flex flex-wrap">

@@ -31,8 +31,8 @@ const Hero = () => {
   };
 
   // Parallax effect values
-  const parallaxX = (mousePos.x / window.innerWidth) * 40;
-  const parallaxY = (mousePos.y / window.innerHeight) * 40;
+  const parallaxX = (mousePos.x / window.innerWidth) * 80;
+  const parallaxY = (mousePos.y / window.innerHeight) * 80;
 
   return (
     <div
@@ -42,7 +42,7 @@ const Hero = () => {
     >
       {/* Background Image */}
       <motion.div
-        className="absolute inset-0 -z-10"
+        className="hidden md:flex absolute inset-0 -z-10"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
@@ -76,23 +76,26 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify"
+              className="my-2 text-xs sm:text-sm md:text-md lg:text-lg max-w-xl py-6 font-light tracking-tighter text-justify"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
         </div>
+
+        {/* Image Container */}
         <motion.div
           variants={imgContainer(0)}
           initial="hidden"
           animate="visible"
-          className="w-full lg:w-1/2 lg:p-8"
+          className="w-full lg:w-1/2 lg:p-8 flex justify-center items-center"
         >
-          <div className="flex justify-center">
+          <div className="">
+            {/* Profile Picture with Responsive Classes */}
             <img
               src={profilePic}
               alt="profilepic"
-              className="w-[24rem] rounded-md"
+              className="w-40 sm:w-60 md:w-70 lg:w-80 xl:w-96 2xl:w-[24rem] rounded-md"
             />
           </div>
         </motion.div>

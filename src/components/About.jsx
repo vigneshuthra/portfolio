@@ -29,7 +29,7 @@ const About = () => {
         >
           <div className="flex justify-center lg:justify-center">
             <div
-              className="my-2 max-w-xl py-2 text-justify"
+              className="my-2 max-w-xl text-xs sm:text-sm md:text-md lg:text-lg py-2 text-justify"
               dangerouslySetInnerHTML={{ __html: ABOUT_TEXT }}
             ></div>
           </div>
